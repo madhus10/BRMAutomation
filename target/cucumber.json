@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1076700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidtionSelenium()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search for items and validate the results",
+        "description": "",
+        "id": "search-and-place-the-order-for-vegetables;search-for-items-and-validate-the-results",
+        "after": [
+          {
+            "result": {
+              "duration": 888341900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidtionSelenium()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24765998000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on GreenKart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_GreenKart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5688475100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searched for \"Cucumber\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepDefinitions.user_searched_for_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 355015200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "MyStepDefinitions.results_are_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SeleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place the order for vegetables",
+    "description": "",
+    "id": "search-and-place-the-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
