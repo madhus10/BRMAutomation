@@ -10,4 +10,8 @@ public class Test {
 		System.out.println("fourth line added");
 	}
 
+	public void test1() {
+		System.out.println("adding 1st test");
+
+	}
 }
