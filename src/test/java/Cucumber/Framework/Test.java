@@ -14,4 +14,9 @@ public class Test {
 		System.out.println("adding 1st test");
 
 	}
+	
+	public void test2() {
+		System.out.println("adding 2nd test");
+
+	}
 }
